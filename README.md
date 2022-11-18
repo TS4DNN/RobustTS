@@ -27,8 +27,10 @@ python type1.py/type2.py -dataset mnist -model_type lenet1
 ```
 python test_prioritization.py/ts_run.py/priori_retrain.py -dataset mnist -model_name lenet1 -save_path ... -data_name ori -attack_name ...
 python ts_run.py -dataset mnist -model_name lenet1 -save_path ... -data_name ori --selected_layer 1
-python riori_retrain.py -dataset mnist -model_name lenet1 -save_path ... -data_name ori -attack_name ...
+python priori_retrain.py -dataset mnist -model_name lenet1 -save_path ... -data_name ori -attack_name ...
 ```
+
+#### You can find some mutants examples in /examples/
 
 ## Others
 - Traffic-Sign data: https://benchmark.ini.rub.de/?section=gtsrb&subsection=dataset
